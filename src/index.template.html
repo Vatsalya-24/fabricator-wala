@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>{{title}}</title>
+<meta name="description" content="{{description}}">
+<meta name="theme-color" content="{{themeColor}}">
+<meta property="og:title" content="{{title}}">
+<meta property="og:description" content="{{description}}">
+<meta property="og:type" content="website">
+{{canonical}}
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔥</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Noto+Sans+Devanagari:wght@500;600;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">{{schema}}</script>
+<style>{{css}}</style>
+</head>
+<body>
+<header><div class="wrap">
+<a class="logo" href="#top">{{logo}}</a>
+<div class="lang"><button data-l="en" class="on">EN</button><button data-l="hi">हिं</button><button data-l="mr">मरा</button></div>
+<a class="hc" href="{{tel}}" aria-label="Call">📞</a>
+</div></header>
+
+<main id="top">
+<div class="hero"><div class="wrap">
+<h1 data-t="h1"></h1>
+<p data-t="hs"></p>
+<div class="btns">
+<a class="btn call" href="{{tel}}">📞 <span data-t="cn"></span></a>
+<a class="btn wa" href="{{wa}}">💬 <span data-t="wa"></span></a>
+</div>
+<div class="chips"><span data-t="w1"></span><span data-t="p3"></span><span data-t="w3"></span></div>
+</div></div>
+
+<section><div class="wrap"><i class="eb"></i>
+<h2 data-t="st"></h2><p class="sub" data-t="ss"></p>
+<div class="grid">
+{{services}}
+</div></div></section>
+
+<section class="alt"><div class="wrap"><i class="eb"></i>
+<h2 data-t="ht"></h2><p class="sub" data-t="hb"></p>
+<ol class="steps">
+<li data-t="p1"></li><li data-t="p2"></li><li data-t="p3"></li><li data-t="p4"></li>
+</ol></div></section>
+
+<section class="dark"><div class="wrap"><i class="eb"></i>
+<h2 data-t="wt"></h2><p class="sub" data-t="wb"></p>
+<ul class="why">
+<li data-t="w1"></li><li data-t="w2"></li><li data-t="w3"></li><li data-t="w4"></li><li data-t="w5"></li>
+</ul></div></section>
+
+<section><div class="wrap"><i class="eb"></i>
+<h2 data-t="ot"></h2><p class="sub" data-t="ob"></p>
+<div class="gal">
+{{gallery}}
+</div></div></section>
+
+<section class="alt"><div class="wrap"><i class="eb"></i>
+<h2 data-t="at"></h2><p class="sub" data-t="ab"></p>
+<div class="areas">{{areas}}</div>
+</div></section>
+
+<section><div class="wrap"><i class="eb"></i>
+<h2 data-t="rt"></h2><p class="sub" data-t="rb"></p>
+<div class="revs">
+{{reviews}}
+</div></div></section>
+
+<section class="alt"><div class="wrap"><i class="eb"></i>
+<h2 data-t="ft"></h2><p class="sub" data-t="fb"></p>
+<details><summary data-t="q1"></summary><p data-t="a1"></p></details>
+<details><summary data-t="q2"></summary><p data-t="a2"></p></details>
+<details><summary data-t="q3"></summary><p data-t="a3"></p></details>
+<details><summary data-t="q4"></summary><p data-t="a4"></p></details>
+</div></section>
+
+<section><div class="wrap"><i class="eb"></i>
+<h2 data-t="ct"></h2><p class="sub" data-t="cs"></p>
+<form id="f">
+<label><span data-t="l1"></span><input name="name" required autocomplete="name"></label>
+<label><span data-t="l2"></span><input name="phone" type="tel" inputmode="tel" required autocomplete="tel"></label>
+<label><span data-t="l3"></span><input name="need" required data-p="x1"></label>
+<label><span data-t="l4"></span><input name="area" required data-p="x2"></label>
+<button class="btn call" type="submit" data-t="sd"></button>
+</form>
+<div class="ci">
+<div>📞 <a href="{{tel}}">{{phone}}</a></div>
+<div>💬 <a href="{{wa}}">WhatsApp {{phone}}</a></div>
+<div>🕘 <span data-t="hr"></span></div>
+</div></div></section>
+</main>
+
+<footer><strong data-t="fl"></strong><br>&copy; {{year}} {{name}}. <span data-t="rr"></span></footer>
+
+<div class="bar">
+<a class="btn call" href="{{tel}}">📞 <span data-t="cn"></span></a>
+<a class="btn wa" href="{{wa}}">💬 WhatsApp</a>
+</div>
+
+
+<script>window.__I18N={{i18n}};window.__SITE={{site}};</script>
+<script>{{js}}</script>
+</body>
+</html>

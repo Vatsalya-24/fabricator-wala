@@ -1,0 +1,37 @@
+{
+  "name": "Fabricator Wala",
+  "city": "Nagpur",
+  "region": "Maharashtra",
+  "country": "IN",
+  "phone": "9226988258",
+  "countryCode": "91",
+  "waMessage": "Hi, I need fabrication work in Nagpur.",
+  "title": "Fabricator in Nagpur | Gates, Grills, Sheds, Railings | Fabricator Wala",
+  "description": "All types of fabrication in Nagpur. Free site visit and measurement. Call Fabricator Wala today.",
+  "themeColor": "#ff6a00",
+  "siteUrl": "",
+  "hours": {
+    "days": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "opens": "09:00",
+    "closes": "19:00"
+  },
+  "areas": [
+    "Dharampeth",
+    "Manish Nagar",
+    "Wardha Road",
+    "Hingna",
+    "Sadar",
+    "Sitabuldi",
+    "Kamptee",
+    "Besa",
+    "Nandanvan",
+    "Trimurti Nagar"
+  ]
+}

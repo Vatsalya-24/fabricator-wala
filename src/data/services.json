@@ -1,0 +1,46 @@
+[
+  {
+    "id": "gates",
+    "icon": "🚪"
+  },
+  {
+    "id": "grills",
+    "icon": "🪟"
+  },
+  {
+    "id": "doors",
+    "icon": "🔒"
+  },
+  {
+    "id": "railings",
+    "icon": "🛡️"
+  },
+  {
+    "id": "stairs",
+    "icon": "🪜"
+  },
+  {
+    "id": "sheds",
+    "icon": "🏭"
+  },
+  {
+    "id": "roofing",
+    "icon": "🏠"
+  },
+  {
+    "id": "mezzanine",
+    "icon": "🏗️"
+  },
+  {
+    "id": "structural",
+    "icon": "🔩"
+  },
+  {
+    "id": "custom",
+    "icon": "🛠️"
+  },
+  {
+    "id": "repair",
+    "icon": "🔥"
+  }
+]
